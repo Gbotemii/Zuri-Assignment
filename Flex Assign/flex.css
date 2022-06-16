@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: rgb(204, 201, 201);
+    align-items: center;
+    
+}
+main{
+    width:65%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    height: 82vh;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    
+    
+}
+h3 {
+    font-size: 40px;
+}
+#sedan {
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+    color: rgb(233, 232, 232);
+    font: 15;
+}
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+    color: rgb(233, 232, 232);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+    color: rgb(233, 232, 232);
+}
+button {
+    padding: 17px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    position: absolute;
+    top: 60vh;
+    margin-left: 20px;
+
+}
+&deep {
+    color: hsl(179, 100%, 13%);
+}
